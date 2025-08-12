@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:rgb(135, 206, 235);
+}
+
+article p:first-child{
+	background: black;
+	color: white;
+}
+article p:nth-child(2){
+	color:black;
+}
+article p:last-child{
+	color:red;
+}
+
+ul li{
+	background-color:grey;
+	padding:10px;
+	width:50%;
+}
+
+ul li:first-child{
+	font-size:22px;
+}
+
+ul li:last-child{
+	font-size:22px;
+}
+
+ul li:nth-child(2n+1){
+	background-color:white;
+}
+
+ul li:nth-last-of-type(3){
+	background-color:pink;
+}
+
+
+
